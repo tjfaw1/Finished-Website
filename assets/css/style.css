@@ -146,6 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-top .container {
   display: flex;
   align-items: center;
+  padding-top: 16px;
 }
 #header.header-top .navbar {
   margin: 0;
@@ -234,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 15px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -243,6 +244,7 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
   }
 }
+
 .navbar-mobile {
   position: fixed;
   overflow: hidden;
@@ -518,7 +520,7 @@ section .container {
 }
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #7ec1ea;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -550,5 +552,5 @@ section .container {
   transition: 0.3s;
 }
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color: #7ec1ea;
 }
