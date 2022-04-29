@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #434546;
+  background-image: linear-gradient(to right, #1c1b1b, #000000);
   color: #fff;
   position: relative;
   background: transparent;
@@ -8,8 +8,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #434546;
-  background-size: cover;
+  background-image: linear-gradient(to right, #1c1b1b, #000000);
   left: 0;
   right: 0;
   top: 0;
