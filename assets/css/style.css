@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-  color: #F8C8DC;
+  color: #E100FF;
   text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #F8C8DC;
+  border-bottom: 2px solid #E100FF;
   padding-bottom: 6px;
 }
 #header img {
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
 }
 #header .social-links a:hover {
-  background: #F8C8DC;
+  background: #E100FF;
 }
 @media (max-width: 992px) {
   #header h1 {
@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #F8C8DC;
+  background-color: #E100FF;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -293,6 +293,10 @@ section .container {
   }
 }
 
+.section-title {
+  margin-top: 40px;
+}
+
 .section-title h2 {
   font-size: 14px;
   font-weight: 500;
@@ -309,7 +313,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #F8C8DC;
+  background: #E100FF;
   margin: 4px 10px;
 }
 .section-title p {
@@ -326,11 +330,11 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #F8C8DC;
+  color: #E100FF;
 }
 .about-me a {
   text-decoration: underline;
-  text-decoration-color: #F8C8DC
+  text-decoration-color: #E100FF
 }
 .about-me .content ul {
   list-style: none;
@@ -347,13 +351,49 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #F8C8DC;
+  color: #E100FF;
   line-height: 0;
 }
 .about-me .content p:last-child {
   margin-bottom: 0;
 }
 
+details {
+  user-select: none;
+  margin: 24px 0 24px 0;
+  /* border: 2px solid yellowgreen; */
+  background: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+}
+
+details a {
+  color: white; 
+  text-decoration: underline #E100FF;
+}
+
+details a:hover {
+  color: #E100FF; 
+}
+
+details>summary span.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s;
+  margin-left: auto;
+}
+
+details[open] summary span.icon {
+  transform: rotate(180deg);
+}
+
+summary {
+  display: flex;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
 
 .skills .progress {
   height: 60px;
@@ -381,7 +421,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #F8C8DC;
+  background-color: #E100FF;
 }
 
 
@@ -420,7 +460,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #F8C8DC;
+  background: #E100FF;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   display: flex;
@@ -459,8 +499,8 @@ section .container {
   margin-bottom: 0;
 }
 .services .icon-box:hover {
-  background: #f190B8;
-  border-color: #F8C8DC;
+  background: #E100FF;
+  border-color: white;
   color: rgb(59, 59, 59);
   text-shadow: none;
 }
@@ -468,7 +508,7 @@ section .container {
   background: #fff;
 }
 .services .icon-box:hover .icon i {
-  color: #F8C8DC;
+  color: #E100FF;
 }
 .services .icon-box:hover .icon::before {
   background: black;
@@ -485,7 +525,7 @@ section .container {
 }
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #F8C8DC;
+  color: #E100FF;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -517,7 +557,7 @@ section .container {
   transition: 0.3s;
 }
 .contact .info-box .social-links a:hover {
-  color: #F8C8DC;
+  color: #E100FF;
 }
 
 .accordion-toggle {
