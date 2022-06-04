@@ -459,6 +459,38 @@ summary::-webkit-details-marker {
   top: 0px;
 }
 
+.gh-logo i {
+  color: white;
+}
+
+.gh-logo i:hover {
+  color: black;
+}
+
+.project-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tag, .tag i {
+  color: white;
+  font-size: 12px;
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
+.tag:hover {
+  color: white;
+}
+
+#responsive-icon {
+  color: white;
+}
+
+
 .interests .icon-box {
   display: flex;
   align-items: center;
