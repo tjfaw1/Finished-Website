@@ -294,7 +294,7 @@ section .container {
 }
 
 .section-title {
-  margin-top: 48px;
+  margin-top: 16px;
 }
 
 .section-title h2 {
@@ -372,12 +372,12 @@ details:hover {
 }
 
 details a {
-  color: white; 
+  color: white;
   text-decoration: underline #E100FF;
 }
 
 details a:hover {
-  color: #E100FF; 
+  color: #E100FF;
 }
 
 details>summary span.icon {
@@ -436,7 +436,7 @@ summary::-webkit-details-marker {
   font-size: 24px;
   border-radius: 2px;
   /* border: 3px #E100FF solid; */
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.12);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -446,8 +446,7 @@ summary::-webkit-details-marker {
 }
 
 .resume-button:hover {
-  background-color: rgba(255, 255, 255, 0.12);
-  transition: ease-in-out 0.3s;
+  background-color: rgba(255, 255, 255, 0.2);  transition: ease-in-out 0.3s;
 }
 
 .resume-button-text {
